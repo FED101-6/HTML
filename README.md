@@ -123,3 +123,22 @@ It should be something like this:
 </form>
 ```
 
+## iFrame
+An iFrame is an element that is useful for embeding another page within a page.  
+```html
+<iframe src="https://www.google.com"></iframe>
+```  
+
+## Video & Audio
+Video and audio elements are used to embed videos and audio into a page.  
+```html
+<video>
+   <src="https://www.youtube.com/watch?v=uh4gG7LbDPQ">
+</video>
+<audio>
+  <source src="myaudiofile.mp3" type="audio/mpeg">
+</audio>
+```  
+
+### Exercise 02: iFrames, Audio & Video
+Create an HTML page with an iFrame, a video, and an audio element.  
