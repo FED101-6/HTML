@@ -1,4 +1,5 @@
-## Background Images
+# Background Images
+  - [Home](../README.md)
 
 Background images can be set with the `background-image` property.  
 

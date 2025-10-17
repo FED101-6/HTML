@@ -31,15 +31,13 @@ The general format of an HTML document is as follows:
   - [Height and Width](./markdown/HEIGHT_AND_WIDTH.md)
   - [Fonts](./markdown/FONTS.md)
   - [Links](./markdown/LINKS.md)
+  - [Position](./markdown/POSITION.md)
+
 
 ## Height and Width
 
 ## Fonts
 
 ## Links
-
-## Tables
-
-## Lists
 
 ## Postition
