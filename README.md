@@ -142,3 +142,232 @@ Video and audio elements are used to embed videos and audio into a page.
 
 ### Exercise 02: iFrames, Audio & Video
 Create an HTML page with an iFrame, a video, and an audio element.  
+
+## Colors
+
+Colors can be set with hexadecimal values, RGB values, or color names.  
+
+```css
+body {
+  color: #000000;
+  color: rgb(0, 0, 0);
+  color: black;
+}
+```
+
+WHen you set the `color` style it is for text, if you want to set the color of the background, you can use `background-color`.  
+
+```css
+body {
+  background-color: #FFFF00;
+  background-color: rgb(255, 255, 0);
+  background-color: yellow;
+}
+```  
+
+## Background Images
+
+Background images can be set with the `background-image` property.  
+
+```css
+body {
+  background-image: url("your-image.jpg");
+}
+```
+There are some properties you can set to have background images repeat on x or y axes, or not at all.  
+
+```css
+body {
+  background-image: url("your-image.jpg");
+  background-repeat: repeat-x;
+}
+```  
+
+```css
+body {
+  background-image: url("your-image.jpg");
+  background-repeat: no-repeat;
+}
+```
+```css
+body {
+  background-image: url("your-image.jpg");
+  background-repeat: repeat;
+}
+``` 
+
+### Exercise 03: Background Images
+Create an HTML page with a blue title and a background image that repeats itself on the y axis.
+
+## Border
+
+Borders can be set with the `border` property.  
+
+```css
+body {
+  border: 1px solid black;
+}
+```  
+We can also set each side of the border individually.  
+
+```css
+body {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+```  
+Or all in one line
+```css
+body {
+  border: 1px 1px 1px 1px solid black;
+}
+```  
+
+Likewise with `border-radius`:
+```css
+body {
+  border-radius: 10px;
+}
+```  
+Or individually:
+```css
+body {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+```  
+Or all in one line:
+```css
+body {
+  border-radius: 10px 10px 10px 10px;
+}
+```  
+### Exercise 04
+Create a page with some borders:
+  1. a div with a red 4px solid border
+  2. a paragraph with a black dotted border with the following properties:  
+    a. 2px width on the top  
+    b. 4px on the right  
+    c. 6px on the bottom  
+    d. 15px on the left  
+    
+## Display Element
+
+The `display` property is used to set the display of an element.  
+
+```css
+body {
+  display: block;
+}
+```  
+
+```html
+<style>
+  .my-div-display {
+    border: 10px solid red;
+    display: inline;
+  }
+</style>
+
+
+
+<p>This is a paragraph <div class="my-div-display">with some text</div> in it.</p>
+```
+
+## Text
+You can use the `text-decoration` property:
+```css
+p {
+  text-decoration: line-through;
+  text-decoration: overline;
+  text-decoration: underline;
+}
+```  
+
+The `text-transform` property is used to capitalize text. 
+```css
+p {
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: capitalize;
+}
+```  
+Use `text-align` to align text.  
+```css
+p {
+  text-align: left;
+  text-align: right;
+  text-align: center;
+  text-align: justify;
+}
+```  
+Use `direction` to set the direction of the text, from left-to-right or right-to-left.  
+```css
+p {
+  direction: ltr;
+  direction: rtl;
+}
+```  
+
+Use `text-indent` to indent the first line of a paragraph.  
+```css
+p {
+  text-indent: 50px;
+}
+```  
+Use `letter-spacing` to set the space between letters.  
+```css
+p {
+  letter-spacing: 3px;
+}
+```  
+Use `line-height` to set the space between lines.  
+```css
+p {
+  line-height: 1.5;
+}
+```  
+
+`white-space` is used to set the white space of an element.  
+```css
+p {
+  white-space: nowrap;
+  white-space: pre;
+  white-space: pre-line;
+  white-space: pre-wrap;
+}
+```  
+
+`word-spacing` is used to set the space between words.  
+```css
+p {
+  word-spacing: 3px;
+}
+``` 
+`text-shadow` is used to set the shadow of the text.  
+```css
+p {
+  text-shadow: 2px 2px 5px red;
+}
+```  
+
+### Exercise
+Create a page with a:
+  - blue title with an underline, capitalized and an orange shadow. Align the text to the center with a 3px letter spacing.
+  - black paragraph with -3px line spacing between words, and 75px indentation.
+
+## Height and Width
+
+## Fonts
+
+## Links
+
+## Tables
+
+## Lists
+
+## Postition
