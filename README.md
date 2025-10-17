@@ -33,8 +33,6 @@ The general format of an HTML document is as follows:
   - [Links](./markdown/LINKS.md)
   - [Position](./markdown/POSITION.md)
 
-## Fonts
-
 ## Links
 
 ## Postition
