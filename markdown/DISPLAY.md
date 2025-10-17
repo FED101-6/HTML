@@ -1,5 +1,5 @@
-    
-## Display Element
+- [Home](../README.md)    
+# Display Element
 
 The `display` property is used to set the display of an element.  
 

@@ -1,4 +1,5 @@
-## Tables
+- [Home](../README.md)
+# Tables
 And of course, we discussed `<table>` tables, which can be used to stylize tables.  
 
 ```html

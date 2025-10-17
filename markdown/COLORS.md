@@ -1,4 +1,5 @@
-## Colors
+- [Home](../README.md)
+# Colors
 
 Colors can be set with hexadecimal values, RGB values, or color names.  
 
