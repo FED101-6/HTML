@@ -36,5 +36,3 @@ The general format of an HTML document is as follows:
   - [Float](./markdown/FLOAT.md)
   - [Align](./markdown/ALIGN.md)
   - [Navigation Bar](./markdown/NAVIGATION_BAR.md)
-
-## Navigation Bar
