@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Float Exercise</title>
+    <style>
+      .div1 {
+        float: left;
+        width: 90px;
+        border: 3px solid rgb(173, 140, 33);
+      }
+
+      .div2 {
+        /* clear: right; */
+        border: 1px solid blue;
+      }
+
+      .container {
+        /* content: ""; */
+        /* clear: both; */
+        /* display: table; */
+        border: 2px solid green;
+      }
+
+      img {
+        /* float: right; */
+        display: block;
+        margin-inline: auto;
+      }
+
+      .container2 {
+        width: 10%;
+        border: solid green;
+      }
+
+      .me2 {
+        line-height: 1.5;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .me3 {
+        line-height: 200px;
+        height: 200px;
+        text-align: center;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <h1>Float Exercise</h1>
+    <div id="exercise-01">
+      <h2>Float Exercise: 01</h2>
+      <div class="div1">
+        Awesome div
+      </div>
+      <div class="div2">
+        Another awesome div
+      </div>
+      <div class="container">
+        <img src="logos.png" alt="a bunch of logos" width="200px">
+        <!-- A very cool picture -->
+      </div>
+
+      <section class="inline-elements">
+        <div class="container2">
+          <p class="me2">I love CSS! I really think it is great.</p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
